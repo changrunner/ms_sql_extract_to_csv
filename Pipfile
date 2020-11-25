@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[[source]]
+name = "test"
+url = "https://test.pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+
+[packages]
+zeppos-microsoft-sql-server = ">=0.0.15"
+zeppos-logging = "*"
+
+[requires]
+python_version = "3.8"
