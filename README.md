@@ -23,7 +23,7 @@ pipenv install
 
 - from a windows command prompt or powershell run
 ```
-pipenv run python app\extract_csv.py -s localhost\sqlexpress -d master -r c:\temp -f test.csv -q c:\temp\query.sql -o 17
+pipenv run python extract_csv.py -s localhost\sqlexpress -d master -r c:\temp -f test.csv -q c:\temp\query.sql -o 17
 ```
 
 - query.sql example for c:\temp\query.sql

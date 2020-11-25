@@ -1,6 +1,6 @@
 import sys
 from zeppos_logging.app_logger import AppLogger
-from app_arg import AppArg
+from app.app_arg import AppArg
 from zeppos_microsoft_sql_server.ms_sql_server import MsSqlServer
 from zeppos_microsoft_sql_server.ms_connection_string import MsConnectionString
 from zeppos_microsoft_sql_server.ms_sql_statement import MsSqlStatement
