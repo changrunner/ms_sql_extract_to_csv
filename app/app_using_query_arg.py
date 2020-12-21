@@ -1,7 +1,7 @@
 import argparse
 from zeppos_logging.app_logger import AppLogger
 
-class AppArg:
+class AppUsingQueryArg:
     def __init__(self, args):
         parser = argparse.ArgumentParser()
         parser.add_argument('-s', '--servername')

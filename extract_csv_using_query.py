@@ -1,13 +1,13 @@
 import sys
 from zeppos_logging.app_logger import AppLogger
-from app.app_arg import AppArg
+from app.app_using_query_arg import AppUsingQueryArg
 from zeppos_microsoft_sql_server.ms_sql_server import MsSqlServer
 from zeppos_microsoft_sql_server.ms_connection_string import MsConnectionString
 from zeppos_microsoft_sql_server.ms_sql_statement import MsSqlStatement
 
 def main(args):
-    AppLogger.logger.debug("Extracting sql to csv")
-    app_arg = AppArg(args)
+    AppLogger.logger.debug("Extracting sql to csv using a query file")
+    app_arg = AppUsingQueryArg(args)
     ms_sql = \
         MsSqlServer(
             connection_string=MsConnectionString.get_pyodbc_connection_string(

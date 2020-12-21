@@ -14,6 +14,7 @@ pytest = ">=6.1.2"
 [packages]
 zeppos-microsoft-sql-server = ">=0.0.17"
 zeppos-logging = ">=1.0.6"
+zeppos-bcpy = ">=0.0.28"
 
 [requires]
 python_version = "3.8"
